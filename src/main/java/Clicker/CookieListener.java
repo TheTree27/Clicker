@@ -9,12 +9,13 @@ public class CookieListener extends JFrame implements ActionListener {
 
     public CookieListener() {
         this.setTitle("Cookie");
-        this.setSize(200, 200);
+        this.setSize(400, 400);
         JPanel panel = new JPanel();
     }
 
     @Override
     public void actionPerformed(ActionEvent cookieClicked) {
-
+        Drawer.cookiesClicked++;
+        Drawer.cookieCounter();
     }
 }

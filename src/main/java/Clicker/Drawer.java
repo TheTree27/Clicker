@@ -4,14 +4,18 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Drawer {
+    private static CookieListener cookieListener = new CookieListener();
+    public static int cookiesClicked = 0;
+
     public static void main(String args[]) {
        run();
     }
 
-    public static void run() {
-        createFrame();
+    private static void run() {
+            createFrame();
+            SwingUtilities.invokeLater(Drawer::cookieButton);
     }
-    private static CookieListener cookieListener = new CookieListener();
+
     private static void createFrame() {
         JFrame frame = new JFrame("Clicker");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -19,10 +23,24 @@ public class Drawer {
         emptyLabel.setPreferredSize(new Dimension(1920, 1080));
         frame.getContentPane().add(emptyLabel, BorderLayout.CENTER);
         frame.pack();
+        //
+        frame.add(cookieButton());
+        //
+        frame.add(cookieCounter());
+        //
         frame.setVisible(true);
-        JButton cookie = new JButton("Cookie");
-        cookie.setSize(200,200);
-        cookie.addActionListener(cookieListener);
-        frame.add(cookie);
+        //
+    }
+    private static JButton cookieButton() {
+        JButton button = new JButton("Cookie");
+        button.setBounds(955, 540, 400, 400);
+        button.addActionListener(cookieListener);
+        return button;
+    }
+    public static JLabel cookieCounter() {
+        JLabel counter = new JLabel("Cookies:" + cookiesClicked);
+        counter.setBounds(1000, 1000, 400, 100);
+        counter.repaint();
+        return counter;
     }
 }
