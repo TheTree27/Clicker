@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Drawer {
+    public static Cookie cookie = new Cookie();
 
     public static void main(String args[]) {
        run();
@@ -21,7 +22,7 @@ public class Drawer {
         frame.getContentPane().add(emptyLabel, BorderLayout.CENTER);
         frame.pack();
         //
-        frame.add(new Cookie());
+        frame.add(Cookie.cookiePanel());
         frame.setVisible(true);
         //
     }
