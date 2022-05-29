@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Cookie extends Component {
-    public static int cookiesClicked = 0;
+    public static double cookiesClicked = 0;
 
     public static JPanel cookiePanel() {
         JPanel panel = new JPanel();
