@@ -1,5 +1,8 @@
 package Clicker;
 
+import Clicker.ClickerUpgrades.Basic;
+import Clicker.ClickerUpgrades.ClickerUpgrade;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -23,6 +26,7 @@ public class Drawer {
         frame.pack();
         //
         frame.add(Cookie.cookiePanel());
+        frame.add(ClickerUpgrade.clickerUpgradePanel());
         frame.setVisible(true);
         //
     }

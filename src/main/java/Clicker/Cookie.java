@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 
 public class Cookie extends Component {
     public static double cookiesClicked = 0;
+    public static double cookiesToAdd = 1;
 
     public static JPanel cookiePanel() {
         JPanel panel = new JPanel();
@@ -17,11 +18,12 @@ public class Cookie extends Component {
         cookieCounter.setBounds(1000, 1000, 400, 100);
         //
         cookieButton.addActionListener(e -> {
-            cookiesClicked++;
+            cookiesClicked += cookiesToAdd;
             cookieCounter.setText("Cookies:" + cookiesClicked);
         });
         panel.add(cookieButton);
         panel.add(cookieCounter);
+        panel.setOpaque(false);
         return panel;
     }
 }
