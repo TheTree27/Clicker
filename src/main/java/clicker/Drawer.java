@@ -1,11 +1,16 @@
-package Clicker;
+package clicker;
 
-import Clicker.ClickerUpgrades.Basic;
-import Clicker.ClickerUpgrades.ClickerUpgrade;
+import clicker.clickerUpgrades.ClickerUpgrade;
+import clicker.passiveUpgrades.PassiveUpgrade;
 
 import javax.swing.*;
 import java.awt.*;
-
+/*TODO
+-arrange everything
+-add "clicks per second" indicator
+-add nicer ui
+-balance upgrades
+ */
 public class Drawer {
     public static Cookie cookie = new Cookie();
 
@@ -27,6 +32,7 @@ public class Drawer {
         //
         frame.add(Cookie.cookiePanel());
         frame.add(ClickerUpgrade.clickerUpgradePanel());
+        frame.add(PassiveUpgrade.passiveUpgradePanel());
         frame.setVisible(true);
         //
     }

@@ -1,11 +1,12 @@
-package Clicker.PassiveUpgrades;
+package clicker.passiveUpgrades;
 
-import Clicker.Upgrade;
+import clicker.Upgrade;
+import clicker.clickerUpgrades.Basic;
 
 import javax.swing.*;
 import java.awt.*;
 
-public abstract class PassiveUpgrade extends Upgrade {
+public class PassiveUpgrade extends Upgrade {
 
     public double cookiesToAdd;
 
@@ -17,6 +18,13 @@ public abstract class PassiveUpgrade extends Upgrade {
     }
 
     public static JPanel passiveUpgradePanel() {
-        return new JPanel(new FlowLayout(FlowLayout.RIGHT));
+        JPanel panel = new JPanel(new FlowLayout(FlowLayout.RIGHT));
+        panel.add(Basic.upgradeButton());
+        panel.setAlignmentX(Component.CENTER_ALIGNMENT);
+        panel.setAlignmentY(Component.TOP_ALIGNMENT);
+        panel.setBounds(1370, 0, 1920/3, 1080);
+        panel.setOpaque(true);
+
+        return panel;
     }
 }

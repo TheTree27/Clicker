@@ -1,7 +1,4 @@
-package Clicker;
-
-import javax.print.DocFlavor;
-import javax.swing.*;
+package clicker;
 
 public abstract class Upgrade {
     public String name;

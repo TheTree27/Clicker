@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afc35d0b-69e2-4359-b8e0-31ecaf7cf320" name="Changes" comment="&#10;GUI Draw Klasse erstellt">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Clicker/ClickerUpgrades/Basic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Clicker/ClickerUpgrades/ClickerUpgrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Clicker/ClickerUpgrades/ClickerUpgrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Clicker/Cookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Clicker/Cookie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Clicker/Drawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Clicker/Drawer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Clicker/PassiveUpgrades/PassiveUpgrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Clicker/PassiveUpgrades/PassiveUpgrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Clicker/Upgrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Clicker/Upgrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clicker/Cookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clicker/Cookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clicker/Drawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clicker/Drawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clicker/Upgrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clicker/Upgrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clicker/clickerUpgrades/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clicker/clickerUpgrades/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clicker/clickerUpgrades/ClickerUpgrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clicker/clickerUpgrades/ClickerUpgrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clicker/passiveUpgrades/PassiveUpgrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clicker/passiveUpgrades/PassiveUpgrade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,39 +42,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mgerteis/Documents/ProPra1/Woche04/praktischeUebung/kw19-donnerstag-1830-gruppe-56&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/mgerteis/Documents/Projekte/Clicker/Clicker",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Clicker.PassiveUpgrades" />
       <recent name="Clicker.ClickerUpgrades" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Clicker.Drawer">
-    <configuration name="Clicker.Cookie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Clicker.Cookie" />
+  <component name="RunManager" selected="Application.clicker.Drawer">
+    <configuration name="clicker.Cookie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clicker.Cookie" />
       <module name="Clicker.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Clicker.ClickerUpgrades.*" />
+          <option name="PATTERN" value="clicker.clickerUpgrades.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Clicker.Drawer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Clicker.Drawer" />
+    <configuration name="clicker.Drawer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clicker.Drawer" />
       <module name="Clicker.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Clicker.ClickerUpgrades.*" />
+          <option name="PATTERN" value="clicker.clickerUpgrades.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,7 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Clicker.Cookie" />
+        <item itemvalue="Application.clicker.Cookie" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +113,10 @@
       <workItem from="1653582799154" duration="5425000" />
       <workItem from="1653836740273" duration="3565000" />
       <workItem from="1653855753711" duration="2533000" />
-      <workItem from="1654166102433" duration="2193000" />
+      <workItem from="1654166102433" duration="3085000" />
+      <workItem from="1655204351619" duration="610000" />
+      <workItem from="1655997898490" duration="26000" />
+      <workItem from="1659002258927" duration="7155000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,6 @@
-package Clicker.ClickerUpgrades;
+package clicker.clickerUpgrades;
 
-import Clicker.Cookie;
+import clicker.Cookie;
 
 import javax.swing.*;
 
